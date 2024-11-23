@@ -1,0 +1,124 @@
+body{
+    margin: 0px;  
+}
+
+#navigation {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    position: fixed;
+    width: 100vw;
+}
+
+#vl{
+    display: inline-block;
+    border-left: 3px solid white;
+    height: 80px;
+}
+
+#links{
+
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_links{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#button1{
+    
+    width:20%;
+
+}
+
+#token{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(197, 10, 182);
+    color: white;
+}
+
+#token:hover{
+    background-color: white;
+    color: rgb(197, 10, 182);
+}
+
+#center-content{
+    color:white;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+#heading{
+    margin-top:0px;
+    font-size: 80px; 
+    padding: 0px 200px ;  
+}
+
+#subtitle{
+    font-size: 40px;
+}
+
+#center{
+    /* margin-left: 450px; */
+    /* width: 50%; */
+    text-align: center;
+    /* margin: 0 auto; */
+    padding-top: 200px;
+}
+
+#early-access{
+    background-color: rgb(197, 10, 182);
+    height: 40px;
+    color:white; 
+}
+
+#early-access:hover{
+    background-color: white;
+    color: rgb(197, 10, 182);
+}
+
+#down_links{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer_links{
+
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    align-items: center; 
+
+}
+
+.nav_links2{
+    color: white;
+    text-decoration: none;
+}
+
+#final{
+    background-color: black;
+    text-align: center;
+}
+
+#copyright{
+    margin: 0px;
+    color: white;
+}

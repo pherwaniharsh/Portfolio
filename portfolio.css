@@ -1,0 +1,292 @@
+[data-theme='dark'] {
+    --text-color: white;
+    --bg-color: black;
+}
+
+[data-theme='light'] {
+    --text-color: black;
+    --bg-color: white;
+}
+
+body{
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    color: darkblue;
+    padding: 0px 30px;
+    border-bottom: black 3px solid;
+    position: sticky; 
+    /* right: 0px; */
+    /* left: 0px; */
+    top: 0px;
+    /* width: 100%; */
+}
+
+
+/* #header-name{
+    display: inline;
+    width: 100px;
+    } */
+    
+.navLinks{
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        align-items: center;
+        /* align-self: flex-end; */
+}
+
+.secondMenu{
+    padding: 5px 0px;
+    text-align: center;
+    position: fixed;
+    right: 0px;
+    gap: 10px;
+    width: 50%;
+    /* height: 100vh; */
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.hideMenu{
+    display: none;
+}
+    
+.hiddenBurger{
+    display: none;
+}
+
+.individualLinks{
+    color: darkblue;
+}
+
+.individualLinks:hover{
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+}
+
+.aboutMe{
+    display: flex;
+    border-bottom: black 3px solid;
+    /* margin-top: 70px; */
+}
+
+.imageBorder{
+    display: flex;
+    border-right: black 3px solid;
+    width: 50vw;
+    height: 100vh;
+    background-color: brown;
+    /* padding: 50px; */
+    align-items: center;  
+    justify-content: center;
+}
+
+#imgHover{
+    height: 370px; 
+    width: 375px;
+    box-shadow: 10px 5px 5px rgb(255, 115, 0);
+}
+
+.Literature{
+    text-align: center;
+    padding: 25px;
+    width: 50vw;
+    background-color: purple;
+}
+
+.blackBoard{
+    padding: 25px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    height: 83vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projectBackground{
+    background: #37294B;
+    padding: 30px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.project-grid{
+    border: 3px solid black;
+    background-color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+.resume{
+    padding: 20px;
+    border-bottom: 5px solid;
+}
+
+.rightSolar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fa-sun{
+    font-size: 50px;
+}
+
+.fa-moon{
+    font-size: 50px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.darkMode{
+    background-color: black;
+    color: white;
+}
+
+.Academic-Achievements{
+    
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    padding: 10px;
+}
+
+.work{
+    border-bottom: 5px solid;
+    padding: 10px;
+}
+
+.date{
+    display: flex;
+    justify-content: space-between;
+    /* width: 80w; */
+    padding: 0px 20px;
+}
+
+footer{
+    height: 100px;
+    padding: 20px;
+}
+
+.fa-brands{
+    font-size: 30px;
+    color: black;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.theme-footer {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+@media(max-width: 1130px){
+    nav{
+        padding: 0px 3px;
+    }
+    
+    .aboutMe{
+        flex-direction: column;
+    }
+
+    .imageBorder{
+        width: 100%;
+    }
+
+    .Literature{
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .projects{
+
+        grid-template-columns: 400px;
+    }
+
+    .navLinks{
+        display: none;
+    }
+
+
+    .hiddenBurger{
+        display: flex;
+        /* display: inline-block; */
+        align-items: center;
+        height: 100%;
+    }
+
+    .fa-bars{
+        font-size: 30px;
+        /* align-self: center; */
+    }
+
+    .imageBorder{
+        border-right: 0px;
+    }
+}
+
+@media(max-width: 810px ){
+
+    nav{
+        padding: 0px 10px;
+    }
+    
+    .aboutMe{
+        flex-direction: column;
+    }
+
+    .imageBorder{
+        width: 100%;
+    }
+
+    .Literature{
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .projects{
+        grid-template-columns: 400px;
+    }
+
+    .navLinks{
+        display: none;
+    }
+    
+    .hiddenBurger{
+        /* display: inline-block; */
+        display: flex;
+        /* align-items: center; */
+        height: 100%;
+    }
+    .fa-bars{
+        font-size: 30px;
+        /* align-self: center; */
+    }
+    
+    .imageBorder{
+        border-right: 0px;
+    }
+}

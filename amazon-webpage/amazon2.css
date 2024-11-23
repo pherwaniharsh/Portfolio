@@ -1,0 +1,18 @@
+.grid-item{
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#img1{
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+    height: 378px;
+}
