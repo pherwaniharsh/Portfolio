@@ -246,10 +246,6 @@ footer{
         border-right: 0px;
     }
 
-    #imgHover{
-        width: 50%;
-        height: 50%;
-    }
 }
 
 @media(max-width: 810px ){
@@ -273,7 +269,7 @@ footer{
     }
 
     .projects{
-        grid-template-columns: 300px;
+        grid-template-columns: 1fr;
     }
 
     .navLinks{
@@ -296,7 +292,7 @@ footer{
     }
 
     #imgHover{
-        width: 50%;
-        height: 50%;
+        width: 370px;
+        height: 370px;
     }
 }
